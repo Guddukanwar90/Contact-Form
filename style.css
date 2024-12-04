@@ -136,3 +136,62 @@ body {
     
 }
 
+
+@media (max-width: 1024px) {
+    .contact {
+        flex-direction: column;
+        height: auto;
+        width: 85vw;
+    }
+
+    .map,
+    .form {
+        width: 100%;
+        height: auto;
+    }
+
+    .form {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        height: auto;
+        width: 90vw;
+    }
+
+    .map iframe {
+        height: 50vh;
+    }
+
+    .form h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        height: auto;
+        width: 95vw;
+        flex-direction: column;
+    }
+
+    .form input,
+    .form textarea {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .main {
+        height: auto;
+        width: 95vw;
+    }
+
+    .main button {
+        font-size: 1.5rem;
+        height: auto;
+        padding: 1rem;
+    }
+}
+

@@ -135,8 +135,4 @@ body {
     left: 0;
     
 }
-@media (max-width:600px){
-    .contact{
-        display:flex;
-        flex-direction:row;
-    }
+
